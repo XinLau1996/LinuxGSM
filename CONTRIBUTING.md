@@ -8,6 +8,35 @@
 
 本项目和所有参与项目的人都受 [LinuxGSM 行为守则](https://github.com/GameServerManagers/linuxgsm/blob/master/CODE_OF_CONDUCT.md) 的约束。通过参与，您将维护本准则。请将不可接受的行为报告给 [daniel.gibbs@linuxgsm.com](mailto:daniel.gibbs@linuxgsm.com)。
 
+## 目录
+
+[为 LinuxGSM 做贡献](#为-LinuxGSM-做贡献)
+* [目录](#目录)
+* [行为守则](#行为守则)
+* [🎉 Bug/增强功能 贡献 🐛](#Bug-增强功能-贡献)
+	+ [🐛 Bugs 报告](#Bugs-报告)
+		- [提交错误报告之前](#提交错误报告之前)
+		- [我如何提交（良好）错误报告？](#我如何提交（良好）错误报告-)
+	+ [🎉功能建议](#功能建议)
+		- [提交功能建议之前](#提交功能建议之前)
+		- [如何提交（良好）功能建议？](#如何提交（良好）功能建议-)
+	+ [🎮 游戏服务器请求](#游戏服务器请求)
+		- [提交游戏服务器请求之前](#提交游戏服务器请求之前)
+		- [如何提交（良好）游戏服务器请求？](#如何提交（良好）游戏服务器请求-)
+	+ [🎮 游戏服务器特定问题](#游戏服务器特定问题)
+* [💻 代码贡献](#代码贡献)
+	+ [拉取请求](#拉取请求)
+		- [拉取请求命名约定](#拉取请求命名约定)
+	+ [测试](#测试)
+		- [拉取请求状态检查](#拉取请求状态检查)
+		- [测试环境](#测试环境)
+	+ [:wine_glass: 风格指南](#-wine-glass--风格指南)
+		- [Git 提交消息](#Git-提交消息)
+		- [BASH 样式指南](#BASH-样式指南)
+* [:blue_book: 文档贡献](#-blue-book--文档贡献)
+	+ [文档样式指南](#文档样式指南)
+* [发出和拉取请求标签](#发出和拉取请求标签)
+
 
 ## 🎉 Bug/增强功能 贡献 🐛
 
@@ -37,7 +66,7 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 
 ### 🎉 功能建议
 
-This section guides you through submitting a feature suggestion for LinuxGSM, including completely new features and minor improvements to existing functionality. Following these guidelines help maintainers and the community understand your suggestion 📝 and find related suggestions 🔎.
+本节指导您提交 LinuxGSM 的功能建议，包括全新的功能和对现有功能的细微改进。根据这些指引，有助维护者及社会人士了解您的建议📝，并🔎找到有关建议。
 
 #### 提交功能建议之前
 
@@ -62,7 +91,7 @@ This section guides you through submitting a game server request for LinuxGSM, F
 
 * **Check for existing** [**game server requests**](https://github.com/GameServerManagers/LinuxGSM/labels/type%3A%20game%20server%20request) to see if the new game server has already been suggested. If it has **and if the new game server is still open**, give it a thumbs.
 * **Check the game server is supported on Linux**, this does not include Wine servers which we do not support.
-#### 如何提交（良好）游戏服务器请求
+#### 如何提交（良好）游戏服务器请求？
 * The title should be as follows: **[Server Request] Game Name**
 *  **Provide Steam App ID** if applicable
 * **Supply any documentation/how-to guides** for the game server.
@@ -130,10 +159,12 @@ Below is an example of the subject line for a pull request:
 ### 测试
 
 #### 拉取请求状态检查
-When a Pull Request is submitted, a series of status check tests are conducted.  These tests will asses the code quality, complete CI tests etc. To get your PR merged these status checks must pass.
+
+提交拉取请求后，将进行一系列状态检查测试。这些测试将评估代码质量，完成CI测试等。要使PR合并，必须通过这些状态检查。
 
 #### 测试环境
-It is recommended that you have a testing environment available to test your code during development. To test your own code you must change some variables within the `linuxgsm.sh` file. This will force the use of your own code branch.
+
+建议您有一个测试环境可用于在开发过程中测试您的代码。要测试自己的代码，必须在 `linuxgsm.sh` 文件中更改一些变量。这将强制使用您自己的代码分支。
 
 ```bash
 ## GitHub Branch Select
@@ -152,9 +183,9 @@ LinuxGSM使用传统的提交标准，允许其他开发人员在开发时获得
 
 #### BASH 样式指南
 
-LinuxGSM uses [ShellCheck](https://www.shellcheck.net/) to follow BASH best practices. It is recommended that you make use of linter tools for your text editor such as [linter-shellcheck](https://atom.io/packages/linter-shellcheck). LinuxGSM uses [Codacy](https://app.codacy.com/manual/GameServerManagers/LinuxGSM/dashboard) to analyse any Pull Requests to give you feedback on code standards.
+LinuxGSM 使用[ShellCheck](https://www.shellcheck.net/)来遵循 BASH 最佳实践。建议您使用绒毛工具为您的文本编辑器，如[linter-shellcheck](https://atom.io/packages/linter-shellcheck)。LinuxGSM 使用 [Codacy](https://app.codacy.com/manual/GameServerManagers/LinuxGSM/dashboard) 分析任何拉力请求，为您提供有关代码标准的反馈。
 
-LinuxGSM also has some of its style standards that should be followed. These are available in the [dev docs](https://dev-docs.linuxgsm.com/)
+LinuxGSM 也有一些应遵循的风格标准。这些在[开发文档](https://dev-docs.linuxgsm.com/)中可用
 
 ## :blue_book: 文档贡献
 
@@ -162,7 +193,7 @@ LinuxGSM also has some of its style standards that should be followed. These are
 
 ### 文档样式指南
 
-LinuxGSM has various documentation available to assist [users](https://docs.linuxgsm.com) and [developers](dev-docs.linuxgsm.com). LinuxGSM primarily uses [GitBook](http://gitbook.com/) which uses the [Markdown](https://www.markdownguide.org/) document standard. LinuxGSM uses [Codacy](https://app.codacy.com/manual/GameServerManagers/LinuxGSM/dashboard) to analyse any Pull Requests to give you feedback on markup standards.
+LinuxGSM 拥有各种文档，可用于帮助[用户](https://docs.linuxgsm.com) 和[开发人员](dev-docs.linuxgsm.com)。LinuxGSM 主要使用使用[标记](https://www.markdownguide.org/) 文档标准的[GitBook](http://gitbook.com/) 。LinuxGSM 使用 [Codacy](https://app.codacy.com/manual/GameServerManagers/LinuxGSM/dashboard)  分析任何拉力请求，为您提供有关加价标准的反馈。
 
 ## 发出和拉取请求标签
 
