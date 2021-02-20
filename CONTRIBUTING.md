@@ -131,11 +131,11 @@ While the prerequisites above must be satisfied before having your pull request 
 
 When naming a pull request to ensure that it is following [Conventional Commits](https://www.conventionalcommits.org/) standards; as your pull request commits will be squashed, with the PR subject becoming the commit that is used for generating the [changelog](https://github.com/GameServerManagers/LinuxGSM/releases) for the next release.
 
-The pull request subject line should always be able to complete the following sentence:
+拉取请求主题行应始终能够完成以下句子：
 
 If applied, this commit will _your subject line here_
 
-For example:
+例如：
 
 * If applied, this commit will **refactor subsystem X for readability**
 * If applied, this commit will **update getting started documentation**
@@ -143,14 +143,14 @@ For example:
 * If applied, this commit will **release version 1.0.0**
 * If applied, this commit will **merge pull request #123 from user/branch**
 
-Notice how this doesn’t work for the other non-imperative forms:
+请注意，这对于其他非强制性表格不起作用：
 
 * If applied, this commit will **fixed bug with Y**
 * If applied, this commit will **change the behaviour of X**
 * If applied, this commit will **more fixes for broken stuff**
 * If applied, this commit will **sweet new API methods**
 
-Below is an example of the subject line for a pull request:
+以下是请求请求的主题行的示例：
 
 **feat(alerts): add slack support to alerts**
 
