@@ -16,13 +16,13 @@
 * [🎉 Bug/增强功能 贡献 🐛](#Bug-增强功能-贡献)
 	+ [🐛 Bugs 报告](#Bugs-报告)
 		- [提交错误报告之前](#提交错误报告之前)
-		- [我如何提交（良好）错误报告](#我如何提交（良好）错误报告)
+		- [我如何提交良好错误报告](#我如何提交良好错误报告)
 	+ [🎉功能建议](#功能建议)
 		- [提交功能建议之前](#提交功能建议之前)
-		- [如何提交（良好）功能建议](#如何提交（良好）功能建议)
+		- [如何提交良好功能建议](#如何提交良好功能建议)
 	+ [🎮 游戏服务器请求](#游戏服务器请求)
 		- [提交游戏服务器请求之前](#提交游戏服务器请求之前)
-		- [如何提交（良好）游戏服务器请求](#如何提交（良好）游戏服务器请求)
+		- [如何提交良好游戏服务器请求](#如何提交良好游戏服务器请求)
 	+ [🎮 游戏服务器特定问题](#游戏服务器特定问题)
 * [💻 代码贡献](#代码贡献)
 	+ [拉取请求](#拉取请求)
@@ -53,7 +53,7 @@
 * **查看**[**支持页**](https://linuxgsm/com/support) 以获取指向其他支持选项的链接。
 * **执行** [**粗略搜索**](https://github.com/search?q=org:GameServerManagers%20type:issues&type=Issues) 以查看是否已报告问题。如果有，但问题仍然存在，请在现有问题上添加评论，并对其竖起大拇指，而不是打开新问题。
 
-#### 我如何提交（良好）错误报告
+#### 我如何提交良好错误报告
 
 Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information by filling in [the issues form](https://github.com/GameServerManagers/LinuxGSM/issues/new/choose).
 
@@ -74,7 +74,7 @@ Bugs are tracked as [GitHub issues](https://guides.github.com/features/issues/).
 * **Check your** [**LinuxGSM version**](https://docs.linuxgsm.com/commands/update-lgsm)**.** A newer version of LinuxGSM may already have your enhancement.
 * **Perform a** [**cursory search**](https://github.com/search?q=org:GameServerManagers%20type:issues&type=Issues) to see if the enhancement has already been suggested. If it has **and the enhancement is still open**, add a comment to the existing issue and give it a thumbs up instead of opening a new one.
 
-#### 如何提交（良好）功能建议
+#### 如何提交良好功能建议
 
 Features are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information by filling in [the issues form](https://github.com/GameServerManagers/LinuxGSM/issues/new/choose).
 
@@ -91,7 +91,7 @@ This section guides you through submitting a game server request for LinuxGSM, F
 
 * **Check for existing** [**game server requests**](https://github.com/GameServerManagers/LinuxGSM/labels/type%3A%20game%20server%20request) to see if the new game server has already been suggested. If it has **and if the new game server is still open**, give it a thumbs.
 * **Check the game server is supported on Linux**, this does not include Wine servers which we do not support.
-#### 如何提交（良好）游戏服务器请求
+#### 如何提交良好游戏服务器请求
 * The title should be as follows: **[Server Request] Game Name**
 *  **Provide Steam App ID** if applicable
 * **Supply any documentation/how-to guides** for the game server.
